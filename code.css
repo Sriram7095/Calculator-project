@@ -1,0 +1,38 @@
+body {
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.calculator {
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 300px;
+}
+
+.calculator input {
+  width: 100%;
+  height: 60px;
+  font-size: 2rem;
+  text-align: right;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  padding-right: 10px;
+}
+
+.btn {
+  width: 60px;
+  height: 60px;
+  font-size: 1.5rem;
+  margin: 5px;
+}
+
+.btn-wide {
+  width: 130px;
+}
